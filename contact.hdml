@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+
+<style>
+
+/* 🌄 Fond d'écran */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+
+    background-image: url("photo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* 🔲 Assombrit légèrement le fond pour lisibilité */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.25);
+    z-index: -1;
+}
+
+/* 📦 Bloc principal */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: rgba(255, 255, 255, 0.92);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+/* 🟦 Header */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+/* 📝 Texte */
+h2 {
+    color: #2c3e50;
+}
+
+p, li {
+    color: #333;
+    font-size: 18px;
+}
+
+ul {
+    text-align: left;
+    display: inline-block;
+}
+
+/* 🔘 Bouton */
+.bouton {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #2c3e50;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.bouton:hover {
+    background-color: #1a252f;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Contact</h1>
+</header>
+
+<div class="container">
+
+    <h2>Coordonnées</h2>
+
+    <p><strong>Téléphone :</strong> 06 02 42 86 09</p>
+
+    <p><strong>E-mail :</strong> actoutfair@gmail.com</p>
+
+    <p><strong>Horaires :</strong> du lundi au samedi de 7h à 19h</p>
+
+    <p><em>Joignable en dehors des horaires et jours d'ouverture</em></p>
+
+    <p><strong>Secteur :</strong> Les Andelys et 30 km aux alentours</p>
+
+    <h2>Demande de devis</h2>
+
+    <p>
+        Vous souhaitez un devis pour du ménage, du jardinage ou des petits travaux ?
+        Contactez-moi en précisant :
+    </p>
+
+    <ul>
+        <li>Le type de prestation souhaitée</li>
+        <li>La commune d'intervention</li>
+        <li>La fréquence (ponctuelle ou régulière)</li>
+        <li>Toute information utile</li>
+    </ul>
+
+    <p><strong>Les devis sont gratuits et sans engagement.</strong></p>
+
+    <!-- 🔙 Bouton retour -->
+    <a href="javascript:history.back()" class="bouton">
+        ← Retour à la page précédente
+    </a>
+
+</div>
+
+</body>
+</html>
