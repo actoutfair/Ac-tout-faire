@@ -2,90 +2,72 @@
 <html lang="fr">
 
 <head>
-<meta charset="UTF-8">
-<title>Zone d’intervention</title>
+  <meta charset="UTF-8">
+  <title>Zone d’intervention</title>
 
-<style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
-}
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      text-align: center;
+    }
 
-.container {
-    max-width: 800px;
-    margin: 50px auto;
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      font-size: 24px;
+    }
 
-h1 {
-    text-align: center;
-    color: #2c3e50;
-}
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
 
-p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #333;
-}
+    .ville {
+      font-size: 26px;
+      font-weight: bold;
+      color: #000; /* noir = impossible à cacher */
+      background: #fff3e0;
+      padding: 15px;
+      border: 2px solid #e67e22;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 15px;
+    }
 
-.zone {
-    background: #e8f4ff;
-    padding: 15px;
-    border-left: 5px solid #3498db;
-    margin: 20px 0;
-}
+    .zone {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #333;
+    }
 
-.contact {
-    text-align: center;
-    margin-top: 25px;
-}
-
-.contact a {
-    display: inline-block;
-    background: #3498db;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.contact a:hover {
-    background: #2980b9;
-}
-</style>
-
+    footer {
+      margin-top: 40px;
+      padding: 15px;
+      background: #2c3e50;
+      color: white;
+    }
+  </style>
 </head>
 
 <body>
 
-<div class="container">
+  <header>
+    Zone d’intervention
+  </header>
 
-    <h1>Zone d’intervention</h1>
+  <div class="container">
+
+    <div class="ville">
+      Les Andelys
+    </div>
 
     <div class="zone">
-        <p>
-        J’interviens pour vos services de ménage, jardinage et petits travaux à domicile dans le 27
-          selon distance.
-        </p>
+      Je me déplace sur Les Andelys et dans un rayon d’environ <strong>30 km</strong> aux alentours.
     </div>
-
-    <p>
-    Déplacements possibles en dehors de cette zone sur demande.
-    </p>
-
-    <p>
-    N’hésitez pas à me contacter pour vérifier si votre commune est couverte.
-    </p>
-
-    <div class="contact">
-        <a href="index.html">Retour à l’accueil</a>
-    </div>
-
-</div>
-
-</body>
-</html>
