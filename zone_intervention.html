@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Zone d’intervention</title>
+  <title>Zone d'intervention</title>
 
   <style>
     body {
@@ -29,30 +29,27 @@
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
 
-    .ville {
-      font-size: 26px;
-      font-weight: bold;
-      color: #000; /* noir = impossible à cacher */
-      background: #fff3e0;
-      padding: 15px;
-      border: 2px solid #e67e22;
-      border-radius: 8px;
-      display: inline-block;
-      margin-top: 15px;
-    }
-
-    .zone {
-      margin-top: 20px;
+    .texte {
       font-size: 18px;
       color: #333;
+      margin-top: 20px;
     }
 
-    footer {
-      margin-top: 40px;
-      padding: 15px;
+    .accueil {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 10px 20px;
       background: #2c3e50;
       color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: 0.3s;
     }
+
+    .accueil:hover {
+      background: #1a242f;
+    }
+
   </style>
 </head>
 
@@ -64,10 +61,16 @@
 
   <div class="container">
 
-    <div class="ville">
-      Les Andelys
-    </div>
+    <p class="texte">
+      Je me déplace sur <strong>Les Andelys</strong> dans un rayon d’environ
+      <strong>30 km aux alentours</strong>.
+    </p>
 
-    <div class="zone">
-      Je me déplace sur Les Andelys et dans un rayon d’environ <strong>30 km</strong> aux alentours.
-    </div>
+    <a class="accueil" href="index.html">
+      Retour à l’accueil
+    </a>
+
+  </div>
+
+</body>
+</html>
