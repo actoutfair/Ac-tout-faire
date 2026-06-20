@@ -1,58 +1,108 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-<meta charset="UTF-8">
-<title>Accueil</title>
+  <meta charset="UTF-8">
+  <title>Mon activité</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #f5f5f5;
-    text-align: center;
-}
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url("photo.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #333;
+      text-align: center;
+    }
 
-header {
-    background: #2c3e50;
-    color: white;
-    padding: 20px;
-}
+    header {
+      background: rgba(44, 62, 80, 0.9);
+      color: white;
+      padding: 20px;
+    }
 
-nav {
-    background: #34495e;
-    padding: 12px;
-}
+    nav {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 10px;
+    }
 
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-.container {
-    padding: 40px;
-}
-</style>
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: rgba(255, 255, 255, 0.85);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    footer {
+      margin-top: 40px;
+      background: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #2c3e50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .btn:hover {
+      background: #1a252f;
+    }
+  </style>
 </head>
 
 <body>
 
-<header>
-<h1>Mon activité</h1>
-</header>
+  <header>
+    <h1>Mon activité de services</h1>
+    <p>Ménage • Jardinage • Petits travaux</p>
+  </header>
 
-<nav>
-<a href="index.html">Accueil</a>
-<a href="services.html">Services</a>
-<a href="zone-intervention.html">Zone d'intervention</a>
-<a href="contact.html">Contact</a>
-</nav>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="services.html">Services</a>
+    <a href="zone-intervention.html">Zone d'intervention</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-<div class="container">
-<h2>Bienvenue</h2>
-<p>Services de ménage, jardinage et petits travaux aux Andelys et alentours.</p>
-</div>
+  <div class="container">
+    <h2>Bienvenue</h2>
+    <p>
+      Je propose des services de ménage, jardinage et petits travaux
+      aux Andelys et dans un rayon d’environ 30 km.
+    </p>
+
+    <p>
+      Travail soigné, devis gratuit et intervention rapide selon vos besoins.
+    </p>
+
+    <a class="btn" href="contact.html">Me contacter</a>
+  </div>
+
+  <footer>
+    <p>© 2026 - Mon activité de services</p>
+  </footer>
 
 </body>
+
 </html>
