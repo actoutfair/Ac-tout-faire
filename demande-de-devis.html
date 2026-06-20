@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<title>Demande de devis gratuit - AC Tout faire</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Bouton retour accueil */
+a.bouton-retour {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #2c3e50;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+a.bouton-retour:hover {
+    background-color: #1a252f;
+}
+
+small {
+    color: #666;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Demande de devis gratuit</h1>
+</header>
+
+<div class="container">
+
+    <p>
+        Remplissez le formulaire ci-dessous pour recevoir un devis gratuit pour vos besoins en ménage, jardinage ou petits travaux.
+        Je vous répondrai rapidement.
+    </p>
+
+    <form>
+
+        <input type="text" name="nom" placeholder="Votre nom" required>
+
+        <input type="tel" name="telephone" placeholder="Votre téléphone" required>
+
+        <input type="email" name="email" placeholder="Votre email">
+
+        <select name="service" required>
+            <option value="">Choisissez un service</option>
+            <option value="menage">Ménage</option>
+            <option value="jardinage">Jardinage</option>
+            <option value="petits-travaux">Petits travaux</option>
+            <option value="autre">Autre</option>
+        </select>
+
+        <textarea name="message" rows="6" placeholder="Décrivez votre besoin (lieu, surface, type de travaux...)" required></textarea>
+
+        <button type="submit">Demander votre devis gratuit</button>
+
+    </form>
+
+    <!-- Bouton retour accueil -->
+    <a class="bouton-retour" href="index.html">🏠 Retour à l'accueil</a>
+
+    <br><br>
+
+    <small>
+        AC Tout faire - Les Andelys et 30 km autour • Devis gratuit et sans engagement
+    </small>
+
+</div>
+
+</body>
+
+</html>
