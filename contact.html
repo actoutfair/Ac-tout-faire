@@ -6,13 +6,11 @@
 <title>Contact</title>
 
 <style>
-
 /* 🌄 Fond d'écran */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     text-align: center;
-
     background-image: url("photo.jpg");
     background-size: cover;
     background-position: center;
@@ -79,6 +77,16 @@ ul {
     background-color: #1a252f;
 }
 
+/* ✉️ lien mail */
+.mail {
+    color: #2c3e50;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.mail:hover {
+    text-decoration: underline;
+}
 </style>
 
 </head>
@@ -95,7 +103,12 @@ ul {
 
     <p><strong>Téléphone :</strong> 06 02 42 86 09</p>
 
-    <p><strong>E-mail :</strong> actoutfair@gmail.com</p>
+    <p>
+        <strong>E-mail :</strong>
+        <a class="mail" href="mailto:actoutfair@gmail.com">
+            actoutfair@gmail.com
+        </a>
+    </p>
 
     <p><strong>Horaires :</strong> du lundi au samedi de 7h à 19h</p>
 
@@ -119,7 +132,7 @@ ul {
 
     <p><strong>Les devis sont gratuits et sans engagement.</strong></p>
 
-    <!-- 🔙 BOUTON MODIFIÉ -->
+    <!-- 🔙 BOUTON -->
     <a href="index.html" class="bouton">
         ← Retour à l'accueil
     </a>
