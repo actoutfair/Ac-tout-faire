@@ -4,69 +4,45 @@
 <head>
   <meta charset="UTF-8">
   <title>Mon activité</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
     body {
-      margin: 0;
       font-family: Arial, sans-serif;
-      background-image: url("photo.jpg");
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-      color: #333;
+      margin: 0;
+      padding: 0;
       text-align: center;
+      background: #f5f5f5;
     }
 
     header {
-      background: rgba(44, 62, 80, 0.9);
+      background: #2c3e50;
       color: white;
       padding: 20px;
-    }
-
-    nav {
-      background: rgba(0, 0, 0, 0.7);
-      padding: 10px;
-    }
-
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
     }
 
     .container {
-      max-width: 900px;
-      margin: 40px auto;
-      background: rgba(255, 255, 255, 0.85);
       padding: 20px;
-      border-radius: 10px;
     }
 
-    footer {
-      margin-top: 40px;
-      background: rgba(0, 0, 0, 0.8);
-      color: white;
-      padding: 10px;
+    img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 12px;
+      margin-top: 20px;
     }
 
     .btn {
       display: inline-block;
       margin-top: 20px;
       padding: 10px 20px;
-      background: #2c3e50;
+      background: #27ae60;
       color: white;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 8px;
     }
 
     .btn:hover {
-      background: #1a252f;
+      opacity: 0.9;
     }
   </style>
 </head>
@@ -75,34 +51,29 @@
 
   <header>
     <h1>Mon activité de services</h1>
-    <p>Ménage • Jardinage • Petits travaux</p>
   </header>
 
-  <nav>
-    <a href="index.html">Accueil</a>
-    <a href="services.html">Services</a>
-    <a href="zone-intervention.html">Zone d'intervention</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-
   <div class="container">
-    <h2>Bienvenue</h2>
-    <p>
-      Je propose des services de ménage, jardinage et petits travaux
-      aux Andelys et dans un rayon d’environ 30 km.
-    </p>
 
-    <p>
-      Travail soigné, devis gratuit et intervention rapide selon vos besoins.
-    </p>
+    <p>Ménage • Jardinage • Petits travaux</p>
 
-    <a class="btn" href="contact.html">Me contacter</a>
+    <img src="photo.jpg" alt="Mon activité">
+
+    <p>Disponible rapidement et travail soigné.</p>
+
+    <a class="btn" href="tel:0602428609">📞 M'appeler : 06 02 42 86 09</a>
+
+    <br><br>
+
+    <a class="btn" href="services.html">🔧 Voir mes services</a>
+
+    <br><br>
+
+    <!-- Lien zone d'intervention -->
+    <a class="btn" href="zone_intervention.html">📍 Zone d’intervention</a>
+
   </div>
 
-  <footer>
-    <p>© 2026 - Mon activité de services</p>
-  </footer>
-
 </body>
-
 </html>
+
